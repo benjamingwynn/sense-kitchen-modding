@@ -1,0 +1,23 @@
+#############################################################################
+#
+# Copyright (c) 2012 WFSdev Team - rezo609
+#
+# Sense Kitchen is completly free. This script file is intended for personal
+# and/or educational use only. It may not be duplicated for monetary
+# benefit or any other purpose without the permission of the developer.
+#
+#############################################################################
+while :
+do
+clear
+echo "This script allows you to modify you phone's software for personalization."
+echo "Originaly designed for the HTC Wildfire S."
+echo "View About for more information."
+echo ""
+echo "======================================================"
+echo ""
+echo "  SETTING CURRENT PROJECT		"
+echo ""
+echo "======================================================"
+echo "
+echo "
