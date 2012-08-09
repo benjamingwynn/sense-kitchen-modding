@@ -1,0 +1,43 @@
+#!/bash/bash
+chmod 755 SENSE-scripts/*
+while :
+do
+clear
+echo "======================================================="
+echo "		Sense 2.1 Kitchen - by rezo609 WFSdev Team"
+echo "======================================================="
+echo " 1 - Set current project
+echo " 2 - Copy required files from device
+echo " 3 - Customize Lockscreen
+echo " 4 - Customize Status Bar
+echo " 5 - Customize Bootanimation
+echo " 6 - Customize Sense Clock Widget
+echo " 7 - Customize Font
+echo " 8 - Customize App Drawer
+echo " 9 - Customize OverScroll Effect
+echo " 10 - Modify Wallpapers
+echo " 11 - Modify Ringtones
+echo " 12 - About / Changlog
+echo " 13 - Check for Updates
+
+ echo -n "Please enter an option: "
+	read opt
+
+case $opt in
+	1) clear; SENSE-scripts/start;;
+	2) clear; SENSE-scripts/pull;;
+	3) clear; SENSE-scripts/lockscreen;;
+	4) clear; SENSE-scripts/statusbar;;
+	5) clear; SENSE-scripts/bootanimation;;
+	6) clear; SENSE-scripts/widget;;
+	7) clear; SENSE-scripts/font;;
+	8) clear; SENSE-scripts/drawer;;
+	9) clear; SENSE-scripts/overscroll;;
+	10) clear; SENSE-scripts/wallpapers;;
+	11) clear; SENSE-scripts/ringtones;;
+	12) clear; SENSE-scripts/about;;
+	13) clear; SENSE-scripts/update;;
+	*) echo "Invalid Operation"; continue;;
+esac
+scripts/press_enter
+done
