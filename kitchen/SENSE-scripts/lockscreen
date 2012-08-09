@@ -1,0 +1,36 @@
+#############################################################################
+#
+# Copyright (c) 2012 WFSdev Team - rezo609
+#
+# Sense Kitchen is completly free. This script file is intended for personal
+# and/or educational use only. It may not be duplicated for monetary
+# benefit or any other purpose without the permission of the developer.
+#
+#############################################################################
+while :
+do
+clear
+echo "This script allows you to modify you phone's software for personalization."
+echo "Originaly designed for the HTC Wildfire S."
+echo "View About for more information."
+echo ""
+echo "======================================================"
+echo ""
+echo "  CUSTOMIZE LOCKSCREEN		"
+echo ""
+echo "======================================================"
+echo " 1 - Change Lockring
+echo " 2 - Change Navbar
+echo " 3 - Remove Navbar
+
+ echo -n "Please choose an option: "
+	read opt
+	
+case $opt in
+	1) clear; SENSE-subscripts/ring;;
+	2) clear; SENSE-subscripts/cnav;;
+	3) clear; SENSE-subscripts/rnav;;
+	*) echo "Invalid Operation"; continue;;
+esac
+scripts/press_enter
+done
