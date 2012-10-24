@@ -1,3 +1,3 @@
-Here you can personalize your sense 2.1 rom with many options. 
+RECOVERED FROM WFSDEV
 
-This is in BETA.
+This repo isn't mine. Whoever made it, it looked important. I will delete it if it isn't claimed by Christmas.
